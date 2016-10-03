@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+
+
+    <title>CodePen - A Pen by  Justin Jones</title>
+    <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <!-- Fonts -->  
+ 	<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Special+Elite" rel="stylesheet">
+ 	
+ 	<!-- Font Awesome embed code -->
+ 	<link rel="stylesheet" href="https://use.fontawesome.com/c6948e5df6.css">
+ 	<script src="https://use.fontawesome.com/f416e83f57.js"></script>
+  <style>
+      body {
+  			padding-top: 40px;
+  			font-family: "Source Code Pro", monospace;
+  			
+			}
+			
+			h1, h2 {
+				font-family: "Special Elite";
+			}
+			.contact {
+				padding-top: 40px;
+			}
+			
+			.intro {
+			  display: table;
+			  width: 100%;
+			  height: auto;
+			  padding: 100px 0;
+			  text-align: center;
+			  color: black;
+			  background-color: white;
+			  -webkit-background-size: cover;
+			  -moz-background-size: cover;
+			  background-size: cover;
+			  -o-background-size: cover;
+			}
+			.intro .intro-body {
+			  display: table-cell;
+			  vertical-align: middle;
+			}
+			.intro .intro-body .brand-heading {
+			  font-size: 40px;
+			}
+			.intro .intro-body .intro-text {
+			  font-size: 18px;
+			}
+			.content-section {
+			  padding-top: 100px;
+			}
+			footer {
+			  padding: 50px 0;
+			}
+			footer p {
+			  margin: 0;
+			}
+			.reverse {
+			  width: 100%;
+			  padding: 50px 25px 0 25px;
+			  color: white;
+			  //background: url(img/bg-intro.png) no-repeat center center scroll;
+			  background-color: black;
+			  -webkit-background-size: cover;
+			  -moz-background-size: cover;
+			  background-size: cover;
+			  -o-background-size: cover;
+			}
+	</style>
+
+    <script>
+  		window.console = window.console || function(t) {};
+		</script>
+    
+  </head>
+
+  <body translate="no" >
+  <!-- Navbar -->
+  <nav class="navbar navbar-inverse navbar-fixed-top" id="my_navbar">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        
+        <a href="" class="navbar-brand">GoJonesy</a>
+        
+      </div> <!-- End Navbar header -->
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <!--<a href="" class="btn btn-info navbar-btn navbar-right">Download?</a>-->
+        <ul class="nav navbar-nav">
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div> <!-- End Navbar Collapse -->
+    </div> <!-- End container -->
+  </nav> <!-- End Navbar -->
+  
+  <!-- Intro Header -->
+  <header class="intro" id="about">
+  	<div class="intro-body">
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-md-8 col-md-offset-2">
+  					<h1>GoJonesy</h1>
+  					<p class="intro-text">freelance code monkey and writer of things</p>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  </header> 
+  <!-- end Intro -->
+  
+  <!-- Portfolio -->
+  <section id="portfolio" class="reverse container content-section text-center">
+	    <div>
+	    	<h2>Portfolio</h2>
+	    	<p class="intro-text">Check out some of my work!</p>
+	    </div>
+	    <div class="row">
+	    	 <div class="col-xs-4 col-md-4">
+	       	<a href="http://fridaynightwrites.herokuapp.com/stories/">
+	       		<img src="img/fnwthumb.png" alt="Friday Night Writes" class="img-thumbnail">
+	       	</a>
+	       	<div class="caption">
+	       		<h4>Friday Night Writes</h4>
+	       		<p>A writing community - A blog style app with Facebook authentication.</p>
+	       	</div>
+       	 </div>
+       <div class="col-xs-4 col-md-4">
+       	<a href="http://imdbmovieclub.herokuapp.com/movieclub/">
+       		<img src="img/imdbclub_thumb.png" alt="IMDB Movie Club" class="img-thumbnail">
+       	</a>
+       	<div class="caption">
+       		<h4>IMDB 250 Movie Club</h4>
+       		<p>A database of the IMDB To 250 from 2012. Uses TMDB api to pull movie data.</p>
+       	</div>
+       </div>
+       <div class="col-xs-4 col-md-4">
+       	<a href="#">
+       		<img src="img/whitford.png" alt="Whitford" class="img-responsive img-thumbnail">
+       	</a>
+       	<div class="caption">
+       		<h4>Bradley Whitford</h4>
+       		<p>Just a test of the layout. Yo.</p>
+       	</div>
+       </div>
+	    </div>
+	</section>
+  
+  
+  <!-- Contact -->
+    <section id="contact" class="container content-section text-center">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <h2>Contact Me</h2>
+          <ul class="list-inline banner-social-buttons">
+            <li>
+              <a href="https://twitter.com/gogojonesy">
+              	<span class="fa-stack fa-3x text-muted">
+	              	<i class="fa fa-square-o fa-stack-2x"></i>
+	              	<i class="fa fa-twitter fa-stack-1x"></i>
+	              </span>
+              </a>
+            </li>
+            <li>
+            	<a href="#">
+              	<span class="fa-stack fa-3x text-muted">
+	              	<i class="fa fa-square-o fa-stack-2x"></i>
+	              	<i class="fa fa-facebook fa-stack-1x"></i>
+	              </span>
+              </a>
+            </li>
+            <li>
+            	<a href="#">
+              	<span class="fa-stack fa-3x text-muted">
+	              	<i class="fa fa-square-o fa-stack-2x"></i>
+	              	<i class="fa fa-instagram fa-stack-1x"></i>
+	              </span>
+              </a>
+            </li>
+            <li>
+            	<a href="#">
+              	<span class="fa-stack fa-3x text-muted">
+	              	<i class="fa fa-square-o fa-stack-2x"></i>
+	              	<i class="fa fa-linkedin fa-stack-1x"></i>
+	              </span>
+              </a>
+            </li>
+            <li>
+            	<a href="mailto:justinjones00@gmail.com">
+              	<span class="fa-stack fa-3x text-muted">
+	              	<i class="fa fa-square-o fa-stack-2x"></i>
+	              	<i class="fa fa-envelope fa-stack-1x"></i>
+	              </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  
+   <!-- Footer --> 
+    <footer class="reverse">
+      <div class="container text-center">
+        <p>Copyright <span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"></span> GoJonesy 2016</p>
+      </div>
+    </footer>
+  <script src="https://code.jquery.com/jquery-3.1.0.slim.min.js"></script>
+ <!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+ 
+</body>
